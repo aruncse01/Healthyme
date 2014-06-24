@@ -1,0 +1,69 @@
+  <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/b">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="16dp"
+        android:text="* Any food made from wheat, rice, oats, cornmeal, barley, or any other cereal grain is a grain product." />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="16dp"
+        android:text="* Bread, pasta, oatmeal, breakfast, cereals, tortillas, and grits are examples of grain products." />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="15dp"
+        android:text="* Grains are divided into 2 subgroups: \n\n 1) Whole Grains \n\n  -> Brown Rice\n  -> Oatmeal\n  -> Popcorn\n  -> Whole Wheat Bread\n  -> Whole Wheat Crackers\n  -> Whole Wheat Cereal Flakes\n\n2) Refined Grains\n\n  -> Cornbread\n  -> Crackers\n  -> Flour tortillas\n  -> Noodles\n  -> Pitas\n  -> White Bread\n  -> White sandwich buns and rolls\n  -> White Rice\n  -> Spaghetti\n  -> Macaroni\n  -> Corn Flakes" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="58dp"
+        android:text="Grains"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Back" />
+
+    <Button
+        android:id="@+id/button2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Store Locator" />
+
+</RelativeLayout>
+</ScrollView>

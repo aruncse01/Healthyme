@@ -1,0 +1,70 @@
+  <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/b"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="16dp"
+        android:text="* All foods made from meat, poultry, seafood, beans and peas, eggs, processed soy products, nuts, and seeds are considered part of the the group." />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="16dp"
+        android:text="* Select a variety of protein foods to improve nutrient intake and health benefits, including at least 8 ounces of cooked seafood per week. Vegetarian options for Protein Foods include beans and peas, processed soy products, and nuts and seeds. Meat and poultry choices should be lean or low-fat." />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="15dp"
+        android:text="* Commonly eaten protein foods: \n\n 1) Meats \n\n  -> beef\n  -> ham\n  -> lamb\n  -> pork\n  -> veal\n  -> chicken/turkey\n\n2) Beans and Peas\n\n  -> black beans\n  -> chickpeas\n  -> kidney beans\n  -> lentils\n  -> soy beans\n  -> split peas\n  -> white beans\n\n3) Nuts and Seeds\n\n  -> almonds\n  -> cashews\n  -> hazelnuts\n  -> mixed nuts\n  -> peanuts\n  -> sesame/sunflower seeds\n  -> walnuts\n  -> pistachios" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="58dp"
+        android:text="Protein"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Back" />
+
+    <Button
+        android:id="@+id/button2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Store Locator" />
+
+</RelativeLayout>
+</ScrollView>

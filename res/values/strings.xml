@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HealthyMe</string>
+    <string name="back">Back</string>
+    <string name="diseaseRecommendation">We recommend that you include the following supplements in your diet to deal with the disease you are suffering from</string>
+    <string name="deficiencyRecommendation">We recommend that you include the following supplements in your diet to deal with the deficiency you are suffering from</string>
+    <string name="protein">Protein</string>
+    <string name="grain">Grain</string>
+    <string name="vegetable">Vegetables</string>
+    <string name="fruit">Fruits</string>
+    <string name="dairy">Dairy</string>
+    <string name="deficiencySuggestions">Deficiency</string>
+    <string name="diseaseSuggestions">Disease</string>
+    <string name="symptoms">Symptoms:</string>
+    <string name="doctors">Doctors:</string>
+    <string name="hospitals">Hospitals:</string>
+    <string name="calendar">Export to the Calendar</string>
+    <string name="create_plan">Create Plan</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_plan">Plan</string>
+    <string name="personal_info">Personal Info</string>
+    <string name="plan">Plan</string>
+    <string name="my_docs">My Docs</string>
+    <string name="forum">Forum</string>
+    <string name="search">Search</string>
+    <string name="title_activity_forum">Forum</string>
+    <string name="search_doctors">Search for Doctors</string>
+    <string name="create_group">Create a Group</string>
+    <string name="chat">Chat</string>
+    <string name="title_activity_search">Search</string>
+    <string name="search_text">Search</string>
+    <string name="diet">Diet</string>
+    <string name="work_out">Work Out</string>
+    <string name="diseases">Diseases</string>
+    <string name="CurrentPlan">CurrentPlan</string>
+    <string name="PlanHistory">PlanHistory</string>
+    <string name="Export_to_calender">Export to Calender</string>
+    <string name="SignUp">SignUp</string>
+    <string name="SignIn">SignIn</string>
+    <string name="healthy_me">Healthy Me</string>
+    <string name="title_activity_about_us">AboutUs</string>
+    <string name="about_us">About Us</string>
+    <string name="text"> Nowadays, most individual’s dietary habits are not healthy. Fast food, or high fat and 
+
+high cholesterol food, is popular, which can lead to obesity. The question, “how to stay healthy?” is asked by more and more people 
+
+around world. Therefore, they need information or instructions about staying 
+
+healthy and finding the correct work-out regime specific to an individual.  
+
+
+In addition, there are millions of people who suffer from various serious diseases. 
+
+For example, there are 10 million people who have cancer/phthisis around the world 
+
+and they really need help finding out about doctors/health centers or information 
+
+about their disease. Moreover, this information should be readily available and 
+
+on-the-go.
+
+
+HealthyMe provides information about diseases and instructions for staying healthy to 
+
+people who want to become healthy or stay healthy. Feature to let people track 
+
+statuses of their own health through storage of medical reports or body information 
+
+will also be provided. In addition, users can communicate with other people, 
+
+patients and specialists (like doctors, dieticians and gym trainers) and get advice or 
+
+suggestions from them. This will also help in creating a social environment where 
+
+people with similar interests can share information with each other. 
+
+
+In addition, the application will provide a function for searching nearby areas for 
+
+medical and grocery stores. The application will devise a health plan according to the 
+
+user’s needs hence creating a personalized schedule for the user to follow. This 
+
+schedule can be exported to other calendars. The fusion of all these features in a 
+
+single application sets itself apart as being superior among other similar applications.</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_register">Register</string>
+    <string name="RegisterPage">Sign Up</string>
+    <string name="FirstName">FirstName:</string>
+    <string name="Email">Email:</string>
+    <string name="LastName">LastName:</string>
+    <string name="Age">Age:</string>
+    <string name="UserName">UserName:</string>
+    <string name="Gender">Gender:</string>
+    <string name="profession">Profession:</string>
+    <string name="password1">Password:</string>
+    <string name="password2">Confirm password:</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="submit">Submit</string>
+    <string name="dateofbirth">Date Of Birth:</string>
+    <string name="dateformat">(mm/dd/nnnn)</string>
+    <string name="cancel">Cancel</string>
+    <string name="backtohome">Home</string>
+
+    <string-array name="planets_array">
+        <item>Choose one:</item>
+        <item>Doctor</item>
+        <item>Gym Trainer</item>
+        <item>Dietitian</item>
+        <item>Others</item>
+    </string-array>
+
+    <string name="title_activity_personal_info">PersonalInfo</string>
+    <string name="title_activity_physicalinfo">Physicalinfo</string>
+    <string name="age">Age:</string>
+    <string name="weight">Weight:</string>
+    <string name="pound">(#)</string>
+    <string name="height">Height:</string>
+    <string name="disease">Disease:</string>
+    <string name="deficiency">Deficiency:</string>
+
+    <string-array name="disease">
+        <item>Choose one:</item>
+        <item>Cancer</item>
+        <item>Obesity</item>
+        <item>Cardiac Arrest</item>
+        <item>High Cholesterol</item>
+        <item>High Blood Pressure</item>
+        <item>Diabetes</item>
+    </string-array>
+    <string-array name="age">
+        <item>Choose one:</item>
+        <item>15-25</item>
+        <item>26-35</item>
+        <item>36-45</item>
+        <item>46-55</item>
+        <item>56-65</item>
+    </string-array>
+    <string-array name="height">
+        <item>Choose one:</item>
+        <item>4.5-5.0</item>
+        <item>5.1-5.5</item>
+        <item>5.6-6.0</item>
+        <item>6.1-6.5</item>
+    </string-array>
+    <string-array name="weight">
+        <item>Choose one:</item>
+        <item>120-150</item>
+        <item>151-180</item>
+        <item>181-210</item>
+        <item>211+</item>
+    </string-array>
+    <string-array name="deficiency">
+        <item>Choose one:</item>
+        <item>Vitamin A</item>
+        <item>Vitamin B12</item>
+        <item>Vitamin C</item>
+        <item>Vitamin D3</item>
+        <item>Vitamin K</item>
+        <item>Iodine</item>
+        <item>Calcium</item>
+        <item>Magnesium</item>
+        <item>Selenium</item>
+    </string-array>
+
+    <string name="persoanlinfomodify">PersonalInfoModify</string>
+    <string name="physicalinfomodify">PhysicalInfoModify</string>
+    <string name="BackToLogin">Sign out</string>
+    <string name="viewandmodify">View and Modify</string>
+    <string name="title_activity_temporary_view">TemporaryView</string>
+    <!--
+    <string name="title_activity_personal_info_modify">PersonalInfoModifyActivity</string>
+    <string name="title_activity_physical_info_modify">PhysicalInfoModifyActivity</string>
+    -->
+
+    <string name="title_activity_personal_info_modify">PersonalInfomation</string>
+    <string name="title_activity_physical_info_modify">PhysicalInfomation</string>
+    <string name="title_activity_calendar_application">CalendarApplicationActivity</string>
+    <string name="title_activity_plan_history">PlanHistoryActivity</string>
+    <string name="title_activity_view_dairy">ViewDairyActivity</string>
+    <string name="title_activity_view_fruits">ViewFruitsActivity</string>
+    <string name="title_activity_view_grain">ViewGrainActivity</string>
+    <string name="title_activity_view_plan">ViewPlanActivity</string>
+    <string name="title_activity_view_protein">ViewProteinActivity</string>
+    <string name="title_activity_view_vegetable">ViewVegetableActivity</string>
+    <string name="title_activity_view_work_out">ViewWorkOutActivity</string>
+    <string name="title_activity_view_vegetables">ViewVegetablesActivity</string>
+    <string name="title_activity_store_locator">StoreLocatorActivity</string>
+    <string name="title_activity_store">StoreActivity</string>
+    <string name="title_activity_search_result_display">SearchResultDisplayActivity</string>
+    <string name="title_activity_disease_suggestion">DiseaseSuggestionActivity</string>
+    <string name="title_activity_deficiency_suggestion">DeficiencySuggestionActivity</string>
+    <string name="title_activity_view_cardio">ViewCardioActivity</string>
+    <string name="title_activity_view_strength">ViewStrengthActivity</string>
+    <string name="title_activity_view_flexibility">ViewFlexibilityActivity</string>
+    <string name="workout">There are three different types of exercise for overall physical fitness: cardiovascular activity, strength conditioning, and flexibility training. These do not all have to be done at once, but doing each on a regular basis will result in balanced fitness.</string>
+    <string name="title">Work Out</string>
+    <string name="button_cardio">Cardiovascular Activity</string>
+    <string name="button_strength">Strength Conditioning</string>
+    <string name="button_flexibility">Flexibility Training</string>
+    <string name="button_tips">Workout Tips</string>
+    <string name="cardio">Cardiovascular activity refers to activities that elevate your heart rate for an extended period of time. It refers to exercise that causes positive adaptations to the heart and lungs.</string>
+    <string name="cardio2">RECOMMENDATION: \n\n          Moderate physical activity for 30 mins a day, five days a week\n\n          Or,\n\n          Vigorous physical activity for 20 mins a day, three days per week\n\nExamples:\n\n- Outdoor Activities: walking, jogging, cycling, swimming, rollerblading, and cross-country skiing.\n\n- Machines: treadmill, elliptical, recumbent bike, upright bike, stair climber. \n\n\ Safety tips:\n\n     - Be sure to warm-up your body by performing low-intensity exercise(eg. walking, cycling) prior to higher intensity exercises.\n\n     - Drink water\n\n     - Stretch before and after any workout\n\n     - When exercising at high intensity, it is important to cool-down, by gradually decreasing your intensity prior to stopping. </string>
+    <string name="strength">Strength training is a specialized method of conditioning designed to increase muscle strength, muscle endurance and muscle power.\n\nResistance training can be done is several ways: with resistance machines, free-weights (dumbbells and barbells), rubber tubing, or your own body weight (eg, push-ups, squats, or abdominal crunches).</string>
+    <string name="strength2">RECOMMENDATION:\n\n       Frequency: 2 to 3 days per week\n\n       Intensity: It is best to choose 8 to 10 exercises which utilize the major muscle groups of the body\n\n       Duration: It is important to keep the movements slow and controlled for the most effective workout\n\n       Repetitions: 1 set of 8 to 12 repetitions\n\n Safety Tips:\n\n     - A major safety concern regarding resistance training is the use of proper body alignment and technique when completing the exercise.\n\n     - When using free weights be sure to place collars on the end of the bars to avoid weights sliding off.\n\n     - Be sure to warm-up your body before resistance training.</string>
+    <string name="flex">Flexibility training include stretching exercises for the purpose of increasing ones range of motion throughtout a joint. Increased range of motion can improve mobility in sporting events as well as everyday activities.</string>
+    <string name="flex2">RECOMMENDATION: \n\n       Activities: Perform a general stretching routine following exercises that have warmedup the body, targeting the major muscle and/or joint/tendon groups using static (non bouncing) techniques.\n\n       Frequency: At least 3 days per week\n\n       Intensity: Slowly stretching to a position of mild discomfort.\n\n       Duration: Hold stretch for at least 10 seconds, working up to 30 seconds.\n\n       Repetitions: Perform each stretch 3 to 5 times.\n\n Safety tips: \n\n     - Stretch after warming up the muscles and joints\n\n     - Stretch slowly and smoothly only to the point of mild discomfort, avoid bouncing\n\n     - Maintain normal breathing throughout each stretch</string>
+    <string name="title_activity_activity_call_user">ActivityCallUser</string>
+    <string name="title_activity_activity_chat_login">ActivityChatLogin</string>
+    <string name="title_activity_activity_video_chat">ActivityVideoChat</string>
+	<!-- For chat -->
+    <string name="audio_call_txt">Audio Call</string>
+	<string name="video_call_txt">Video Call</string>
+	<string name="login_by_first_user">Login as First User</string>
+	<string name="login_by_second_user">Login as Second User</string>
+	<string name="call_user">call </string>
+    <string name="calling_dialog_title">Incoming call</string>
+    <string name="calling_dialog_txt">Calling</string>
+    <string name="login_screen_title">Login as a User1 on the 1st device and as a User2 on the second device</string>
+    <string name="call_start_txt">Call Start</string>
+    <string name="call_canceled_txt">Call canceled by caller</string>
+    <string name="login">login</string>
+    <string name="password">password</string>
+    <string name="please_wait">Please wait</string>
+ 	<string name="title_activity_activity_login">ActivityLogin</string>
+    <string name="title_activity_activity_call_user">ActivityCallUser</string>
+    <string name="title_activity_activity_video_chat">ActivityVideoChat</string>
+</resources>

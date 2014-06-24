@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.uidesign"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <permission
+        android:name="om.example.uidesign.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="om.example.uidesign.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.camera.flash" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.uidesign.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.uidesign.Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.example.uidesign.ProfileActivity"
+            android:label="@string/title_activity_profile" >
+        </activity>
+        <activity
+            android:name="com.example.uidesign.ForumActivity"
+            android:label="@string/title_activity_forum" >
+        </activity>
+        <activity
+            android:name="com.example.uidesign.SearchActivity"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name="com.example.uidesign.PlanActivity"
+            android:label="@string/title_activity_plan" >
+        </activity>
+        <activity
+            android:name="com.example.uidesign.SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name="com.example.uidesign.AboutUsActivity"
+            android:label="@string/title_activity_about_us" >
+        </activity>
+        <activity
+            android:name="com.example.uidesign.SignUpActivity"
+            android:label="@string/title_activity_sign_up" >
+        </activity>
+        <activity
+            android:name="com.example.uidesign.RegisterActivity"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name="com.example.uidesign.PersonalInfoActivity"
+            android:label="@string/title_activity_personal_info" >
+        </activity>
+        <activity
+            android:name="com.example.uidesign.Physicalinfo"
+            android:label="@string/title_activity_physicalinfo" >
+        </activity>
+        <activity
+            android:name="com.example.uidesign.TemporaryView"
+            android:label="@string/title_activity_temporary_view" >
+        </activity>
+        <activity
+            android:name="com.example.uidesign.PersonalInfoModifyActivity"
+            android:label="@string/title_activity_personal_info_modify" >
+        </activity>
+        <activity
+            android:name="com.example.uidesign.PhysicalInfoModifyActivity"
+            android:label="@string/title_activity_physical_info_modify" >
+        </activity>
+        <activity
+            android:name="com.example.uidesign.CalendarApplicationActivity"
+            android:label="@string/title_activity_calendar_application" >
+        </activity>
+        <activity
+            android:name="com.example.uidesign.PlanHistoryActivity"
+            android:label="@string/title_activity_plan_history" >
+        </activity>
+        <activity
+            android:name="com.example.uidesign.ViewDairyActivity"
+            android:label="@string/title_activity_view_dairy" >
+        </activity>
+        <activity
+            android:name="com.example.uidesign.ViewFruitsActivity"
+            android:label="@string/title_activity_view_fruits" >
+        </activity>
+        <activity
+            android:name="com.example.uidesign.ViewGrainActivity"
+            android:label="@string/title_activity_view_grain" >
+        </activity>
+        <activity
+            android:name="com.example.uidesign.ViewPlanActivity"
+            android:label="@string/title_activity_view_plan" >
+        </activity>
+        <activity
+            android:name="com.example.uidesign.ViewProteinActivity"
+            android:label="@string/title_activity_view_protein" >
+        </activity>
+        <activity
+            android:name="com.example.uidesign.ViewVegetableActivity"
+            android:label="@string/title_activity_view_vegetable" >
+        </activity>
+        <activity
+            android:name="com.example.uidesign.ViewWorkOutActivity"
+            android:label="@string/title_activity_view_work_out" >
+        </activity>
+        <activity
+            android:name="com.example.uidesign.ViewVegetablesActivity"
+            android:label="@string/title_activity_view_vegetables" >
+        </activity>
+        <activity
+            android:name="com.example.uidesign.StoreLocatorActivity"
+            android:label="@string/title_activity_store_locator" >
+        </activity>
+        <activity
+            android:name="com.example.uidesign.StoreActivity"
+            android:label="@string/title_activity_store" >
+        </activity>
+        <!-- Shruthi's key -->
+        <!--
+             <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAEWmZo7Q8O05z90e-FzqE0B1pX2HFJfiI" />
+        -->
+        <!-- Arun's key -->
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBX7-K8SWZP3dG8kzWBY9LBGoL_hq_Exvs" />
+
+        <service
+            android:name="com.example.uidesign.LocationService"
+            android:process=":location_service" />
+
+        <activity
+            android:name="com.example.uidesign.SearchResultDisplayActivity"
+            android:label="@string/title_activity_search_result_display" >
+        </activity>
+        <activity
+            android:name="com.example.uidesign.DiseaseSuggestionActivity"
+            android:label="@string/title_activity_disease_suggestion" >
+        </activity>
+        <activity
+            android:name="com.example.uidesign.DeficiencySuggestionActivity"
+            android:label="@string/title_activity_deficiency_suggestion" >
+        </activity>
+        <activity
+            android:name="com.example.uidesign.ViewCardioActivity"
+            android:label="@string/title_activity_view_cardio" >
+        </activity>
+        <activity
+            android:name="com.example.uidesign.ViewStrengthActivity"
+            android:label="@string/title_activity_view_strength" >
+        </activity>
+        <activity
+            android:name="com.example.uidesign.ViewFlexibilityActivity"
+            android:label="@string/title_activity_view_flexibility" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.example.uidesign.ActivityCallUser"
+            android:label="@string/title_activity_activity_call_user" >
+        </activity>
+        <activity
+            android:name="com.example.uidesign.ActivityChatLogin"
+            android:label="@string/title_activity_activity_chat_login" >
+        </activity>
+        <activity
+            android:name="com.example.uidesign.ActivityVideoChat"
+            android:label="@string/title_activity_activity_video_chat" >
+        </activity>
+        
+        <service android:name="com.quickblox.module.videochat.core.service.QBVideoChatService" />
+        
+    </application>
+
+</manifest>
